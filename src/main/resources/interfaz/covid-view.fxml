@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="448.0" prefWidth="740.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="interfaz.CovidController">
+   <children>
+      <Button layoutX="73.0" layoutY="35.0" onAction="#onCargarClick" text="Iniciar Carga Datos.." />
+      <ListView fx:id="lvwResultados" layoutX="29.0" layoutY="142.0" prefHeight="224.0" prefWidth="702.0" />
+   </children>
+</AnchorPane>
